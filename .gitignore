@@ -34,3 +34,5 @@ optuna_studies/
 
 # db
 *.db
+
+auto-tune-vllm-logs/

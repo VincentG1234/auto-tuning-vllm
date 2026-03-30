@@ -314,6 +314,7 @@ class BaseTrialController(TrialController):
                                     Can be checked via .is_cancelled().remote()
         """
         execution_info = ExecutionInfo()
+        state = None
         controller_logger = self._get_trial_logger("controller")
         controller_logger.info(
             f"Running trial {trial_config.trial_id} "
